@@ -48,7 +48,7 @@ ol {
   gap: 30px;
   min-width: 1140px;
   min-height: 534px;
-  margin-bottom: 147px;
+  margin-top: 60px;
 }
 
 .content__list-container {
@@ -56,8 +56,8 @@ ol {
   flex-direction: column;
   gap: 30px;
   block-size: 298px;
-  overflow-y: auto; 
-  margin-top: 26px;
+  overflow-y: auto;
+  margin-top: 22px;
   position: relative;
 }
 
@@ -72,7 +72,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
+  object-position: center;
 }
 
 .search-form {
@@ -87,12 +87,14 @@ ol {
   flex-direction: column;
   width: 100%;
   height: 100%;
+  justify-content: end;
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding-right: 3px;
 }
 
 .content__video-card {
@@ -209,7 +211,7 @@ ol {
 }
 
 .search-form__textfield:focus {
-   outline: none;
+  outline: none;
 }
 
 .search-form__textfield:focus-visible {
@@ -229,12 +231,12 @@ ol {
 }
 
 .search-form__pseudo-checkbox::after {
-content:"";
-display: block;
-background-color: #fff;
-width: 100%;
-height: 100%;
-opacity: 0;
+  content: "";
+  display: block;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -247,7 +249,6 @@ opacity: 0;
 
 .search-form__label:has(.search-form__checkbox:focus-visible) {
   outline: 1px solid #fff;
- 
 }
 
 .button {
@@ -267,28 +268,28 @@ opacity: 0;
   cursor: pointer;
 }
 
-.search-form__submit-button{
-width: 194px;
-height: 34px;
-margin-top: auto;
+.search-form__submit-button {
+  width: 194px;
+  height: 34px;
+  margin-top: auto;
 }
 
 .more-button {
-max-width: 390px;
-width: 100%;
-height: 34px;
+  max-width: 390px;
+  width: 100%;
+  height: 34px;
 }
 
 .button:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .button:active {
-color: rgb(255 255 255 / 0.7);
+  color: rgb(255 255 255 / 0.7);
 }
 
 .button:focus {
-outline: none;
+  outline: none;
 }
 
 .button:focus-visible {
@@ -296,14 +297,12 @@ outline: none;
 }
 
 .content__card-link_current {
-background-color: #545050;
-cursor: pointer;
-
+  background-color: #545050;
+  cursor: pointer;
 }
 
 .content__card-link:active {
-background-color: #545050;
-
+  background-color: #545050;
 }
 
 .content__card-link:hover {
@@ -315,7 +314,7 @@ background-color: #545050;
 }
 
 .content__card-link:focus-visible {
-  outline: 1px solid #fff; 
+  outline: 1px solid #fff;
   padding-left: 3px;
   padding-right: 3px;
 }
