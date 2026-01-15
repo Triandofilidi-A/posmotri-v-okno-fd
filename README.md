@@ -1,1 +1,1 @@
-https://triandofilidi-a.github.io/posmotri-v-okno-fd
+https://github.com/triandofilidi-a/posmotri-v-okno-fd
